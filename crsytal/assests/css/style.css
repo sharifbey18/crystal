@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+}
+
+.crystals {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.crystal {
+    border: 2px solid gold;
+    height: 200px;
+    width: 200px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 1s;
+
+}
+
+.crystal:hover {
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    cursor: pointer;
+    transition: box-shadow 1s;
+
+}
+
+p {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 36px;
+    color: gold;
+}
+
+
+.jumbotron {
+    background-image: url('https://statics.sportskeeda.com/editor/2018/01/484bf-1517422753-800.jpg');
+    height:300px;
+    background-size: auto 100%;
+    border-bottom:1px solid gold;
+}
+
